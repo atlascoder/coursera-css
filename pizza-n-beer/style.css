@@ -1,0 +1,9 @@
+body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; }
+nav { margin-bottom: 30px; border-bottom: 2px solid #333; padding-bottom: 10px; }
+.skip-link { position: absolute; top: -40px; left: 0; background: #e74c3c; color: #fff; padding: 10px; z-index: 100; }
+.skip-link:focus { top: 0; }
+.card { border: 1px solid #ddd; padding: 20px; margin-bottom: 20px; border-radius: 8px; }
+.card img { max-width: 360px; width: 100%; height: auto; display: block; margin-bottom: 10px; border-radius: 4px; }
+
+/* keep generic images responsive if used outside .card */
+img { max-width: 100%; height: auto; }
